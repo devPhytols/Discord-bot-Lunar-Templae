@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+html,
+body {
+    background-image: url('/img/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    top: 0;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 17, 97);
+    overflow: hidden;
+}
+
+.navbar a {
+    font-size: 15px;
+    float: left;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: rgb(255, 17, 97);
+    background-color: rgba(255, 255, 255, 0.603);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.content {
+    margin-top: 55px;
+    font-family: 'Prompt', sans-serif;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    white-space: normal;
+    display: block;
+    position: absolute;
+}
+
+.content #name {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(29, 29, 29);
+}
+
+.content #about {
+    display: block;
+    word-wrap: break-word;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(37, 37, 37);
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.137);
+    ;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.137);
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons a {
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(255, 17, 97);
+    border-radius: 7px;
+    text-decoration: none;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.137);
+}
+
+.buttons a:hover{
+    font-size: 16px;
+    color: rgb(255, 17, 97);
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 7px;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.footer {
+    font-family: 'Prompt', sans-serif;
+    position: fixed;
+    font-size: 14px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 17, 96, 0.952);
+    color: white;
+    text-align: center;
+}

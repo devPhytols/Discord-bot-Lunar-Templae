@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+#footer-about {
+    font-family: 'Prompt', sans-serif;
+    font-size: 1em;
+}
+
+#footer-left {
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.9em;
+    text-align: left;
+    background-color: rgba(255, 17, 96, 0.911);
+    color: white;
+    height: 100%;
+    margin: 0;
+    padding: 0 1em;
+}
+
+#footer-right {
+    float: right;
+}
+
+@media screen and (max-width: 575px) {
+    #footer-left {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    #footer-right {
+        float: none;
+    }
+}
